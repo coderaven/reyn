@@ -19,15 +19,15 @@
     <body>
         <div class="wrapper">
             <div class="header">
-                <img src="images/sun.png">
+                <img class="lazy" data-original="images/sun.png">
             </div>
 
             <div class="content">
                 <div class="side_greetings for-height">
-                    <img src="images/reyn-1.png">
+                    <img class="lazy" data-original="images/reyn-1.png">
                 </div>
                 <div class="greetings">
-                    <img src="images/365.png">
+                    <img class="lazy" data-original="images/365.png">
                     <div>
                         <p>of verses, phrases & greetings</p>
                         <p>for <b>YOU</b></p>
@@ -35,30 +35,21 @@
                 </div>
 
                 <div class="name">
-                    <img src="images/arrow_reyn.png">
+                    <img class="lazy" data-original="images/arrow_reyn.png">
                 </div>
 
                 <div class="sincerely">
-                    <img src="images/sincerly.png">
+                    <img class="lazy" data-original="images/sincerly.png">
                 </div>
             </div>
 
         </div>    
         <div class="clear"></div>
         
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/vendor/jquery.lazyload.min.js"></script>
+        <script src="js/vendor/jquery.scrollstop.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
     </body>
 </html>
