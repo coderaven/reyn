@@ -27,7 +27,7 @@
                     <img class="lazy" data-original="images/reyn-1.png">
                 </div>
                 <div class="greetings">
-                    <img class="lazy" data-original="images/365.png">
+                    <img class="lazy" data-original="images/365days.png">
                     <div>
                         <p>of verses, phrases & greetings</p>
                         <p>for <b>YOU</b></p>
@@ -45,6 +45,29 @@
 
         </div>    
         <div class="clear"></div>
+
+        <div class="wrapper" id="day1">
+            <div class="content">
+                <div class="greetings">
+                    <img class="lazy" data-original="images/keepcalm.png">
+                    <div>
+                        <p>“But as for you, be strong and do not give up, for <br><br>
+                        your work will be rewarded."<b> ~ 2 Chronicles 15:7</b></p>
+
+                        <p class="psmall">Go <b>Reyn</b>! Your reviews and studies will
+                            definitely be rewarded ;)</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <div class="wrapper" id="day2">
+            <div class="content">
+                <div class="greetings">
+                    <img class="lazy" data-original="images/day2.png">
+                </div>
+            </div>
+        </div> 
         
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/vendor/jquery.lazyload.min.js"></script>
