@@ -420,7 +420,7 @@ body {
 .content {
     width: 720px;
     margin: 0 auto;
-    padding-bottom: 140px;
+    padding-bottom: 160px;
 }
 
 .daytext {
@@ -437,7 +437,7 @@ body {
     position: absolute;
     width: 282px;
     left: 0;
-    top: 140px;
+    top: 160px;
 }
 
 .greetings {
