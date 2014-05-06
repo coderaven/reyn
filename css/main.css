@@ -420,13 +420,24 @@ body {
 .content {
     width: 720px;
     margin: 0 auto;
-    padding-bottom: 100px;
+    padding-bottom: 140px;
 }
+
+.daytext {
+    display: block;
+    color: #fff;
+    padding-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: .5;
+    font-size: 30px;
+}
+
 .side_greetings {
     position: absolute;
     width: 282px;
     left: 0;
-    top: 100px;
+    top: 140px;
 }
 
 .greetings {

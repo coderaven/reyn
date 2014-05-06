@@ -56,6 +56,7 @@
             <div class="wrapper" id="day1">
                 <div class="content">
                     <div class="greetings">
+                        <span class="daytext">Day 1</span>
                         <img class="lazy" data-original="images/day1.png">
                     </div>
                 </div>
@@ -68,6 +69,7 @@
             <div class="wrapper" id="day2">
                 <div class="content">
                     <div class="greetings">
+                        <span class="daytext">Day 2</span>
                         <img class="lazy" data-original="images/day2.png">
                     </div>
                 </div>
