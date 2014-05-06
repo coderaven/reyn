@@ -368,13 +368,11 @@ html {
     overflow-x: hidden;
 }
 body {
-    background-color: #f15d58;
     font-family: "Quicksand";
 }
 
 .wrapper {
     position: relative;
-    background-color: #f15d58;
     width: 1349px;
     max-width: 100%;
     margin: 0 auto; 
@@ -432,6 +430,25 @@ body {
 
 .clear {
     clear: both;
+}
+
+.daywrapper {
+    background: #000;
+}
+
+.color-tomato {
+    background-color: #f15d58;
+}
+.color-skyblue {
+    background-color: #14a9f5;
+}
+
+.color-violetslate {
+    background-color: #8390b2;
+}
+
+#daytop {
+    background-color: #f15d58;
 }
 
 #day1 {

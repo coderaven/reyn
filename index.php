@@ -17,53 +17,58 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
-        <div class="wrapper">
-            <div class="header">
-                <img class="lazy" data-original="images/sun.png">
-            </div>
-
-            <div class="content">
-                <div class="side_greetings for-height">
-                    <img class="lazy" data-original="images/reyn-1.png">
+        <div class="daywrapper color-tomato">
+            <div class="wrapper" id="daytop">
+                <div class="header">
+                    <img class="lazy" data-original="images/sun.png">
                 </div>
-                <div class="greetings">
-                    <img class="lazy" data-original="images/365days.png">
-                    <div>
-                        <p>of verses, phrases & greetings</p>
-                        <p>for <b>YOU</b></p>
+
+                <div class="content">
+                    <div class="side_greetings for-height">
+                        <img class="lazy" data-original="images/reyn-1.png">
+                    </div>
+                    <div class="greetings">
+                        <img class="lazy" data-original="images/365days.png">
+                        <div>
+                            <p>of verses, phrases & greetings</p>
+                            <p>for <b>YOU</b></p>
+                        </div>
+                    </div>
+
+                    <div class="name">
+                        <img class="lazy" data-original="images/arrow_reyn.png">
+                    </div>
+
+                    <div class="sincerely">
+                        <img class="lazy" data-original="images/sincerly.png">
                     </div>
                 </div>
+            </div>    
+        </div>
 
-                <div class="name">
-                    <img class="lazy" data-original="images/arrow_reyn.png">
+        <div class="clear"></div>
+        
+        <div class="daywrapper color-skyblue">
+            <div class="wrapper" id="day1">
+                <div class="content">
+                    <div class="greetings">
+                        <img class="lazy" data-original="images/day1.png">
+                    </div>
                 </div>
-
-                <div class="sincerely">
-                    <img class="lazy" data-original="images/sincerly.png">
-                </div>
-            </div>
-
-        </div>    
+            </div> 
+        </div>
 
         <div class="clear"></div>
 
-        <div class="wrapper" id="day1">
-            <div class="content">
-                <div class="greetings">
-                    <img class="lazy" data-original="images/day1.png">
+        <div class="daywrapper color-violetslate">
+            <div class="wrapper" id="day2">
+                <div class="content">
+                    <div class="greetings">
+                        <img class="lazy" data-original="images/day2.png">
+                    </div>
                 </div>
-            </div>
-        </div> 
-
-        <div class="clear"></div>
-
-        <div class="wrapper" id="day2">
-            <div class="content">
-                <div class="greetings">
-                    <img class="lazy" data-original="images/day2.png">
-                </div>
-            </div>
-        </div> 
+            </div> 
+        </div>
         
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/vendor/jquery.lazyload.min.js"></script>
