@@ -17,6 +17,10 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
+        <div class="scroller">
+            <a href="#" id="scrolltop"><img src="images/scrolltop.png"></a>
+            <a href="#" id="scrolldown"><img src="images/scrolldown.png"></a>
+        </div>
         <div class="daywrapper color-tomato">
             <div class="wrapper" id="daytop">
                 <div class="header">
@@ -31,7 +35,7 @@
                         <img class="lazy" data-original="images/365days.png">
                         <div>
                             <p>of verses, phrases & greetings</p>
-                            <p>for <b>YOU</b></p>
+                            <p>for <b>YOU.</b></p>
                         </div>
                     </div>
 
@@ -73,6 +77,7 @@
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/vendor/jquery.lazyload.min.js"></script>
         <script src="js/vendor/jquery.scrollstop.min.js"></script>
+        <script src="js/vendor/jquery-scrollto.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
     </body>

@@ -378,6 +378,39 @@ body {
     margin: 0 auto; 
 }
 
+.scroller {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    z-index: 999;
+}
+
+.scroller #scrolltop {
+    margin-left: 15px;
+    margin-bottom: 20px;
+    display: block; 
+    opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+}  
+
+.scroller #scrolldown {
+   display: block; 
+   opacity:0.4;
+   filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.scroller #scrolltop:hover {
+    opacity:1;
+    filter:alpha(opacity=100); /* For IE8 and earlier */
+}  
+
+.scroller #scrolldown:hover {
+   opacity:1;
+   filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
 .header {
     position: absolute;
     top: 0;
@@ -393,7 +426,7 @@ body {
     position: absolute;
     width: 282px;
     left: 0;
-    top: 180px;
+    top: 100px;
 }
 
 .greetings {
@@ -401,7 +434,7 @@ body {
 }
 
 .greetings img{
-    margin-top: 300px
+    margin-top: 250px;
 }
 
 .greetings div {
@@ -424,8 +457,8 @@ body {
 .content .sincerely {
     width: 128px;
     float: right;
-    margin-top: 37px;
-    margin-right: -160px;
+    margin-top: -20px;
+    margin-right: -120px;
 }
 
 .clear {
