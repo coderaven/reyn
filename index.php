@@ -44,22 +44,18 @@
             </div>
 
         </div>    
+
         <div class="clear"></div>
 
         <div class="wrapper" id="day1">
             <div class="content">
                 <div class="greetings">
-                    <img class="lazy" data-original="images/keepcalm.png">
-                    <div>
-                        <p>“But as for you, be strong and do not give up, for <br><br>
-                        your work will be rewarded."<b> ~ 2 Chronicles 15:7</b></p>
-
-                        <p class="psmall">Go <b>Reyn</b>! Your reviews and studies will
-                            definitely be rewarded ;)</p>
-                    </div>
+                    <img class="lazy" data-original="images/day1.png">
                 </div>
             </div>
         </div> 
+
+        <div class="clear"></div>
 
         <div class="wrapper" id="day2">
             <div class="content">

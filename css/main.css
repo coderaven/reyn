@@ -376,6 +376,7 @@ body {
     position: relative;
     background-color: #f15d58;
     width: 1349px;
+    max-width: 100%;
     margin: 0 auto; 
 }
 
