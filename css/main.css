@@ -364,6 +364,9 @@ textarea {
 
 
 /***main css ***/
+html {
+    overflow-x: hidden;
+}
 body {
     background-color: #f15d58;
     font-family: "Quicksand";
