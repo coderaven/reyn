@@ -30,7 +30,6 @@ $(document).ready(function(){
 				return;
 			} else {
 				$("#message #messagesent").show(500);
-				alert(data);
 				return;
 			}
 		});
