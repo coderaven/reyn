@@ -439,6 +439,10 @@ body {
     font-size: 30px;
 }
 
+.not-so-dark {
+    color: #313131 !important;
+}
+
 .side_greetings {
     position: absolute;
     width: 282px;
@@ -511,6 +515,10 @@ body {
     background-color: #8390b2;
 }
 
+.color-happyyellow {
+    background-color: #efe5c1;
+}
+
 #daytop {
     background-color: #f15d58;
 }
@@ -539,6 +547,10 @@ body {
 #day2 .greetings img {
     margin-top: 70px;
     margin-left: -150px;
+}
+
+#day3 .greetings img {
+    margin-top: 70px;
 }
 
 #message {
@@ -708,5 +720,20 @@ body {
         margin-right: auto !important;
         width: 580px !important;
     }
+
+    #theday3 img {
+        width: 580px !important;
+    }
+
 }
 
+@media screen and (max-width: 610px) {
+    .content img{
+        width: 700px;
+        margin-left: 40px;
+    }
+
+    #theday3 img {
+        width: 480px !important;
+    }
+}

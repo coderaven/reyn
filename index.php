@@ -75,6 +75,19 @@
                 </div>
             </div> 
         </div>
+
+        <div class="clear"></div>
+
+        <div class="daywrapper color-happyyellow" id="theday3">
+            <div class="wrapper" id="day3">
+                <div class="content">
+                    <div class="greetings">
+                        <span class="daytext not-so-dark">Day 3</span>
+                        <img class="lazy" data-original="images/day3.png">
+                    </div>
+                </div>
+            </div> 
+        </div>
         
         <div class="clear"></div>
 
