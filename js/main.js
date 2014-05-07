@@ -23,14 +23,14 @@ $(document).ready(function(){
 		$("#message .messageimg").hide(500);
 
 		var messageBody = $.trim($('#message textarea').val());
-		alert(messageBody);
 
 		$.post('send.php',{message: messageBody}, function(data){
 			if ($.trim(data) == 'error') {
-				alert("There has been an error");
+				alert("There has been an error. Please refresh this page and try again.");
 				return;
 			} else {
 				$("#message #messagesent").show(500);
+				return;
 			}
 		});
 	});

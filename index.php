@@ -70,7 +70,7 @@
                 <div class="content">
                     <div class="greetings">
                         <span class="daytext">Day 2</span>
-                        <img class="lazy" data-original="images/day2.png">
+                        <img src="images/day2.png">
                     </div>
                 </div>
             </div> 
