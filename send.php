@@ -12,7 +12,7 @@
 
 	    $mail->From = "reynville@gmail.com";
 		$mail->FromName = "Reynville";
-		$mail->addAddress('rabintoy@gmail.com', 'Raven Duran');
+		$mail->addAddress('raven@webnified.com', 'Raven G. Duran');
 
 		$mail->WordWrap = 70;
 		$mail->Subject = "365 Days Message from Reynville";
