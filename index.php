@@ -82,11 +82,14 @@
             <div class="wrapper" id="message-wrap">
                 <div class="topcontent">
                     <div class="greetings">
-                        <img src="images/message.png">
+                        <img src="images/message.png" class="messageimg" id="messagelarge">
+                        <img src="images/message-small.png" class="messageimg" id="messagesmall">
+                        <img src="images/sent.png" id="messagesent">
                     </div>
                     <form action="message.php" method="post">
                         <textarea name="message" cols="54" rows="4"></textarea>
-                        <a href="#"><img src="images/send.png"></a>
+                        <div class="clearfix"></div>
+                        <a href="#" id="messagebutton"><img src="images/send.png"></a>
                     </form>
                 </div>
             </div> 

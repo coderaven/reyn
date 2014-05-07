@@ -16,4 +16,11 @@ $(document).ready(function(){
 	});
 
 	$("html").niceScroll();
+
+	$("#messagebutton").click(function(e){
+		e.preventDefault();
+		$("#message form").hide(500);
+		$("#message .messageimg").hide(500);
+		$("#message #messagesent").show(500);
+	});
 });

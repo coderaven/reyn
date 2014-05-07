@@ -565,9 +565,82 @@ body {
     margin-right: -75px;
 }
 
+#messagesent {
+    display: none;
+    margin-left: 100px !important;
+}
+
+#messagesmall {
+    display: none;
+}
+
 @media screen and (max-width: 1185px) {
     #theday2 img {
         width: 950px !important;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    #thedaytop .greetings img {
+         width: 680px !important;
+         margin-left: 40px;
+    }
+
+    #thedaytop .greetings p {
+         font-size: 35px !important;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    #thedaytop .greetings img {
+         width: 500px !important;
+         margin-left: 140px;
+    }
+
+    #thedaytop .greetings p {
+         font-size: 26px !important;
+         margin-left: 45px;
+    }
+
+    #thedaytop .name {
+        margin-top: 60px;
+    }
+    
+    #thedaytop .sincerely {
+        float: right;
+        margin-right: 100px;
+        padding-top: 50px;
+    }
+
+    #thedaytop .sincerely img {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    #messagesmall {
+        display: inline-block;
+        margin-left: 100px !important;
+    }
+
+    #messagelarge {
+        display: none;
+    }
+
+    #message textarea {
+        margin-top: 20px;
+        font-family: "Quicksand";
+        font-weight: bold;
+        font-size: 28px;
+        margin-left: 100px;
+        width: 430px;
+    }
+
+    #message a {
+        display: block;
+        margin-top: 20px;
+        float: left;
+        margin-left: 100px;
     }
 }
 
@@ -578,8 +651,62 @@ body {
     }
 
     #theday2 img {
-        margin: 0 auto !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
         width: 740px !important;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .content img{
+        width: 700px;
+        margin-left: 40px;
+    }
+
+    #thedaytop .greetings {
+         padding-top: 100px;
+    }
+
+    #thedaytop .name {
+        margin-top: 15px;
+    }
+    
+    #thedaytop .sincerely {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        float: none;
+        padding-left: 200px;
+        padding-top: 50px;
+    }
+
+    #thedaytop .sincerely img {
+        width: 90px;
+    }
+
+    #thedaytop .greetings div {
+        padding-top: 10px;
+    }
+
+    #thedaytop .greetings img {
+         width: 300px !important;
+         margin-left: 215px;
+
+    }
+
+    #thedaytop .greetings p {
+         font-size: 16px !important;
+    }
+
+    #theday1 img {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 580px !important;
+    }
+
+    #theday2 img {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 580px !important;
     }
 }
 
