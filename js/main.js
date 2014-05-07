@@ -21,6 +21,17 @@ $(document).ready(function(){
 		e.preventDefault();
 		$("#message form").hide(500);
 		$("#message .messageimg").hide(500);
-		$("#message #messagesent").show(500);
+
+		var messageBody = $.trim($('#message textarea').val());
+		alert(messageBody);
+
+		$.post('send.php',{message: messageBody}, function(data){
+			if ($.trim(data) == 'error') {
+				alert("There has been an error");
+				return;
+			} else {
+				$("#message #messagesent").show(500);
+			}
+		});
 	});
 });
