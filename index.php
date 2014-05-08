@@ -88,6 +88,19 @@
                 </div>
             </div> 
         </div>
+
+        <div class="clear"></div>
+
+        <div class="daywrapper color-white" id="theday4">
+            <div class="wrapper" id="day4">
+                <div class="content">
+                    <div class="greetings">
+                        <span class="daytext not-so-dark">Day 4</span>
+                        <img class="lazy" data-original="images/day4.png">
+                    </div>
+                </div>
+            </div> 
+        </div>
         
         <div class="clear"></div>
 

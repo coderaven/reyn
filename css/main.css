@@ -519,6 +519,10 @@ body {
     background-color: #efe5c1;
 }
 
+.color-white {
+    background-color: #fff;
+}
+
 #daytop {
     background-color: #f15d58;
 }
@@ -551,6 +555,10 @@ body {
 
 #day3 .greetings img {
     margin-top: 70px;
+}
+
+#day4 .greetings img {
+    margin-top: 50px;
 }
 
 #message {
@@ -626,6 +634,12 @@ body {
 
     #thedaytop .sincerely img {
         width: 120px;
+    }
+}
+
+@media screen and (max-width: 905px) {
+    #theday4 img {
+        width: 600px !important;
     }
 }
 
@@ -727,12 +741,13 @@ body {
 
 }
 
-@media screen and (max-width: 610px) {
-    .content img{
-        width: 700px;
-        margin-left: 40px;
+@media screen and (max-width: 630px) {
+    #theday4 img {
+        width: 500px !important;
     }
+}
 
+@media screen and (max-width: 610px) {
     #theday3 img {
         width: 480px !important;
     }
