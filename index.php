@@ -101,6 +101,19 @@
                 </div>
             </div> 
         </div>
+
+        <div class="clear"></div>
+
+        <div class="daywrapper color-brightyellow" id="theday5">
+            <div class="wrapper" id="day5">
+                <div class="content">
+                    <div class="greetings">
+                        <span class="daytext not-so-dark">Day 5</span>
+                        <img class="lazy" data-original="images/day5.png">
+                    </div>
+                </div>
+            </div> 
+        </div>
         
         <div class="clear"></div>
 

@@ -523,6 +523,10 @@ body {
     background-color: #fff;
 }
 
+.color-brightyellow {
+    background-color: #ffe240;
+}
+
 #daytop {
     background-color: #f15d58;
 }
@@ -559,6 +563,11 @@ body {
 
 #day4 .greetings img {
     margin-top: 50px;
+}
+
+#day5 .greetings img {
+    margin-top: -35px;
+    margin-left: -75px;
 }
 
 #message {
@@ -744,6 +753,11 @@ body {
 @media screen and (max-width: 630px) {
     #theday4 img {
         width: 500px !important;
+    }
+
+    #theday5 img {
+        width: 500px !important;
+        margin-left: -1px !important;
     }
 }
 
