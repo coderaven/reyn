@@ -539,6 +539,10 @@ body {
     background-color: #383530;
 }
 
+.color-skyishblue {
+    background-color: #3266de;
+}
+
 #daytop {
     background-color: #f15d58;
 }
@@ -590,6 +594,10 @@ body {
 #day7 .greetings img {
     margin-top: 100px;
     margin-left: -80px;
+}
+
+#day8 .greetings img {
+    margin-top: 90px;
 }
 
 #click7 {
@@ -780,6 +788,13 @@ body {
 
 }
 
+@media screen and (max-width: 739px) {
+    #theday8 img {
+        width: 500px !important;
+        margin-left: 80px !important;
+    }
+}
+
 @media screen and (max-width: 630px) {
     #theday4 img {
         width: 500px !important;
@@ -798,5 +813,23 @@ body {
 
     #theday6 img {
         width: 480px !important;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    #theday7 img {
+        width: 450px !important;
+        margin-left: 40px !important;
+    }
+
+    #theday7 #click7 img {
+        width: 200px !important;
+        margin-top: -50px !important;
+        margin-left: 220px !important;
+    }
+
+    #theday8 img {
+        width: 450px !important;
+        margin-left: 40px !important;
     }
 }
