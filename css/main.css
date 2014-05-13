@@ -543,6 +543,10 @@ body {
     background-color: #3266de;
 }
 
+.color-pinkishpeach {
+    background-color: #e9dbb6;
+}
+
 #daytop {
     background-color: #f15d58;
 }
@@ -597,6 +601,10 @@ body {
 }
 
 #day8 .greetings img {
+    margin-top: 90px;
+}
+
+#day9 .greetings img {
     margin-top: 90px;
 }
 
@@ -813,6 +821,11 @@ body {
 
     #theday6 img {
         width: 480px !important;
+    }
+
+    #theday9 img {
+        width: 480px !important;
+        margin-left: 50px !important;
     }
 }
 
