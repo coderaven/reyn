@@ -547,6 +547,14 @@ body {
     background-color: #e9dbb6;
 }
 
+.color-pinkishpeach {
+    background-color: #e9dbb6;
+}
+
+.color-lightblue {
+    background-color: #c4e5dc;
+}
+
 #daytop {
     background-color: #f15d58;
 }
@@ -605,6 +613,10 @@ body {
 }
 
 #day9 .greetings img {
+    margin-top: 90px;
+}
+
+#day10 .greetings img {
     margin-top: 90px;
 }
 
@@ -800,6 +812,13 @@ body {
     #theday8 img {
         width: 500px !important;
         margin-left: 80px !important;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    #theday10 img {
+        width: 500px !important;
+        margin-left: 50px !important;
     }
 }
 
