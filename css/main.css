@@ -556,6 +556,10 @@ body {
     background-color: #c4e5dc;
 }
 
+.color-cityblue {
+    background-color: #53c2bb;
+}
+
 #daytop {
     background-color: #f15d58;
 }
@@ -623,6 +627,10 @@ body {
 
 #day11 .greetings img {
     margin-top: 90px;
+}
+
+#day12 .greetings img {
+    margin-top: 70px;
 }
 
 #click7 {
@@ -825,12 +833,22 @@ body {
         width: 600px !important;
         margin-left: 30px !important;
     }
+
+    #theday12 img {
+        width: 600px !important;
+        margin-left: 30px !important;
+    }
 }
 
 @media screen and (max-width: 645px) {
     #theday10 img {
         width: 500px !important;
         margin-left: 50px !important;
+    }
+
+    #theday12 img {
+        width: 500px !important;
+        margin-left: 30px !important;
     }
 }
 
