@@ -766,6 +766,10 @@ body {
         margin-right: auto !important;
         width: 740px !important;
     }
+
+    #theday12 img {
+        width: 740px !important;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -825,6 +829,11 @@ body {
     #theday8 img {
         width: 500px !important;
         margin-left: 80px !important;
+    }
+
+    #theday12 img {
+        width: 600px !important;
+        margin-left: 60px !important;
     }
 }
 
