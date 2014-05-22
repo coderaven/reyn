@@ -646,6 +646,11 @@ body {
     margin-left: 50px;
 }
 
+#day15 .greetings img {
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
 #click7 {
     width: 450px;
 }
@@ -895,6 +900,10 @@ body {
     }
 
     #theday13 img {
+        width: 500px !important;
+    }
+
+    #theday15 img {
         width: 500px !important;
     }
 }
