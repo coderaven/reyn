@@ -12,7 +12,7 @@ $(document).ready(function(){
 
 	$("#scrolldown").click(function(){
 		//$('#day2').ScrollTo();
-		$('#theday15').animatescroll({scrollSpeed:2000,easing:'easeOutBack'});
+		$('#theday16').animatescroll({scrollSpeed:2000,easing:'easeOutBack'});
 	});
 
 	$("html").niceScroll();
